@@ -32,10 +32,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Updated View Controller-->
+        <!--Update View Controller-->
         <scene sceneID="kxg-Qc-GfU">
             <objects>
-                <viewController id="yLY-pt-0rU" customClass="UpdatedViewController" sceneMemberID="viewController">
+                <viewController id="yLY-pt-0rU" customClass="UpdateViewController" customModule="Transitions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hoe-lb-cfF"/>
                         <viewControllerLayoutGuide type="bottom" id="wDG-1W-Q9c"/>
@@ -43,12 +43,27 @@
                     <view key="view" contentMode="scaleToFill" id="da0-jM-ec5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Simpsons_Couch" translatesAutoresizingMaskIntoConstraints="NO" id="YqE-rh-8s6">
+                                <rect key="frame" x="190" y="62" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I9r-oZ-c3j">
+                                <rect key="frame" x="180" y="369" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.15820404869999999" green="0.0" blue="0.79655934340000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomImage" destination="I9r-oZ-c3j" id="m3a-1r-SoW"/>
+                        <outlet property="topImage" destination="YqE-rh-8s6" id="7fn-Tw-8y4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5g-mp-H5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1216" y="411"/>
+            <point key="canvasLocation" x="1002" y="346"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Simpsons_Couch" width="626" height="520"/>
+    </resources>
 </document>
