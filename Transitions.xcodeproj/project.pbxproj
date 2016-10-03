@@ -59,7 +59,6 @@
 				0E336ABC1DA298A300F3EB0C /* Controller */,
 				0E336ABD1DA298C600F3EB0C /* View */,
 				0E336AB11DA2964300F3EB0C /* Assets.xcassets */,
-				0E336AB31DA2964300F3EB0C /* LaunchScreen.storyboard */,
 				0E336AB61DA2964300F3EB0C /* Info.plist */,
 			);
 			path = Transitions;
@@ -79,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				0E336AAE1DA2964300F3EB0C /* Main.storyboard */,
+				0E336AB31DA2964300F3EB0C /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
